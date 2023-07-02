@@ -1,0 +1,188 @@
+
+
+
+
+p { 
+	margin-top: -15; 
+	text-align: center;
+	}
+.name-header {
+    grid-area: title;
+    color: rgb(255, 255, 255);;
+    background-image: url("intropic.jpg");
+    background-position: 100%;
+    border-style: double;
+    border-width: 10px 10px; 
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bolder;
+    font-size: xx-large;
+    border-color: rgb(130, 172, 96);
+    }
+
+.intro-header {
+    grid-area: header;
+    }
+
+.tec-header {
+    grid-area: t-header;
+    }
+
+.skl-header {
+    grid-area: s-header;
+    }
+
+.ser-header {
+    grid-area: serv-header;
+    }            
+
+a.one:link, a.two:link, a.three:link,
+ a.one:visited, a.two:visited, a.three:visited {
+    background-color: rgba(228, 166, 124, 0.719);
+    color: rgb(39, 29, 22);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder;
+    }
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'title header header'
+        'title introduction introduction'
+        'serv-header s-header s-header'
+        'serve skill skill'
+        't-header t-header t-header'
+        'technical technical technical';
+    grid-gap: 10px;
+    padding: 10px;
+    }
+.intro {
+    grid-area: introduction;
+    background-color: rgba(228, 166, 124, 0.719);
+    column-count: 2;
+    column-gap: 20px;
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bolder;
+    column-rule-style: double;
+    column-rule-width: 5px;
+    column-rule-color: rgb(193, 202, 202);
+    border-style: double;
+    border-width: 15px 12px;
+    border-color: rgb(130, 172, 96);
+    margin: 15px;
+    }
+
+.tech {
+    border-style: double;
+    border-width: 15px 12px;
+    border-color: rgb(130, 172, 96);
+    margin: 15px;
+    grid-area: technical;
+    background-color: rgba(228, 166, 124, 0.719);
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    
+    }
+
+ul.skills {
+    grid-area: skill;
+    background-color: rgba(228, 166, 124, 0.719);
+    border-style: double;
+    border-width: 15px 12px;
+    border-color: rgb(130, 172, 96);
+    margin: 15px;
+    text-align: left;
+    font-family: "Georgia";
+    font-weight: bold;
+    list-style-type: square;
+    }
+
+.service {
+    grid-area: serve;
+    background-color: rgba(228, 166, 124, 0.719);
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    border-style: double;
+    border-width: 15px 12px;
+    border-color: rgb(130, 172, 96);
+    margin: 15px;
+    column-rule-style: double;
+    column-rule-width: 5px;
+    column-rule-color: rgb(193, 202, 202);
+    column-count: 2;
+    }
+
+body {
+  background-color: #a76971;
+  margin-left: 20px;
+  margin-Right: 20px;
+    }
+
+h3 { 
+    background-color: rgb(130, 172, 96);
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: wavy;
+    color:rgb(15, 36, 126);
+    }
+    
+a:link, a:visited {
+    color: rgb(39, 29, 22);
+    text-decoration: underline;
+    }
+
+a.one:hover, a.two:hover, a.three:hover, a:hover {
+    color: rgb(50, 70, 24);
+    background-color: rgb(228, 166, 124);
+    }
+.contact_info {
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(155, 143, 113, 0.692);
+    display: block;
+    margin-right: 25px;
+    
+}
+.resume {
+    display: inline;
+}
+
+.Button_one, .Button_two {
+    background-color: #d2d442;
+    border: none;
+    color: rgb(14, 11, 11);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 42%;
+    margin-top: 25px;
+    cursor: pointer; 
+    font-weight: bolder;
+}
+
+.pic_progress {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pep_progress {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.SGA {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+

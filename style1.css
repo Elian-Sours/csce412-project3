@@ -1,0 +1,149 @@
+
+
+
+
+p { 
+	margin-top: -15; 
+	text-align: center;
+	}
+.name-header {
+    border-style: double;
+    border-width: 10px 10px; 
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bolder;
+    font-size: xx-large;
+    }
+a.one:link, a.two:link, a.three:link,
+ a.one:visited, a.two:visited, a.three:visited {
+    background-color: rgba(36, 72, 102, 0.876);
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-weight: bolder;
+    font-size: x-large;
+    }
+.intro {
+    background-color: rgba(36, 72, 102, 0.876);
+    border-style: inset;
+    border-width: 7px 5px;
+    border-color: rgba(102, 93, 94, 0.692);
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    }
+
+.tech {
+    background-color: rgba(36, 72, 102, 0.876);
+    border-style: inset;
+    border-width: 7px 5px;
+    border-color: rgba(102, 93, 94, 0.692);
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    }
+
+ul.skills {
+    background-color: rgba(36, 72, 102, 0.876);
+    border-style: inset;
+    border-width: 7px 5px;
+    border-color: rgba(102, 93, 94, 0.692);
+    border-radius: 7px;
+    text-align: left;
+    font-family: "Georgia";
+    font-weight: bold;
+    list-style-type: square;
+    
+    }
+
+.service {
+    background-color: rgba(36, 72, 102, 0.876);
+    border-style: inset;
+    border-width: 7px 5px;
+    border-color: rgba(102, 93, 94, 0.692);
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    }
+
+body {
+  background-image: url("waterfall.jpg");
+  background-position: center middle;
+  background-attachment: scroll;
+  margin-left: 20px;
+  margin-Right: 20px;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(219, 139, 33);
+    }
+
+h3 { 
+    background-color: rgba(155, 143, 113, 0.692);
+    border-style: inset;
+    border-width: 7px 5px;
+    border-color: rgba(102, 93, 94, 0.692);
+    border-radius: 7px;
+    margin-top: 50px;
+    color:rgb(39, 29, 22);
+    font-size: x-large;
+    }
+    
+a:link, a:visited {
+    color: rgb(191, 49, 226);
+    text-decoration: none;
+    }
+
+a.one:hover, a.two:hover, a.three:hover, a:hover {
+    color: rgb(50, 70, 24);
+    background-color: rgb(228, 166, 124);
+    }
+.contact_info {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    display: block;
+    background-color: rgba(102, 93, 94, 0.692);
+    margin-right: 25px;
+    
+}
+.resume {
+    display: inline;
+}
+
+.Button_one, .Button_two {
+    background-color: #d2d442;
+    border: none;
+    color: rgb(14, 11, 11);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 42%;
+    margin-top: 25px;
+    cursor: pointer; 
+    font-weight: bolder;
+}
+
+.pic_progress {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pep_progress {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.SGA {
+    margin: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
